@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  
+/* codes here 
+ *
+ * here 
+ */
  char i;
  
     printf("Capital (upper) case characters:\n");
