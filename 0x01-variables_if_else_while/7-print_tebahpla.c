@@ -4,16 +4,16 @@
   *
   * Return: Always (Success)
   */
-int main(void) 
+int main(void)
 {
-   	char a;
-    
+     char a;
 
-    	for (a ='z'; a >= 'a'; a--)
-       	{       
-       	putchar(a);        
-       	}
-    	putchar('\n');
 
-    	return (0);    
+    for (a ='z'; a >= 'a'; a--)
+    {
+    putchar(a);
+    }
+    putchar('\n');
+
+    return (0);
 }
