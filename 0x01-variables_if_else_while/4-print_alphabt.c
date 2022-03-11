@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 int main(void) 
-{
-  
+
+
 /**
  * main - Prints the alphabetic in lower and upper case
  *
  * Return: Always (Success)
  */
 
+
+{
+  
 
 	char c;
    
@@ -21,7 +24,7 @@ int main(void)
 		putchar(c);
 	   }
 
-    putchar('\n');
+	putchar('\n');
 
 	
     return 0;
