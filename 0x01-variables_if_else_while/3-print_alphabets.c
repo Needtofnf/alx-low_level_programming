@@ -2,7 +2,7 @@
 
 int main() {
   
-/**
+  /**
  * main - Prints the alphabetic in lower and upper case
  *
  * Return: Always (Success)
@@ -11,12 +11,12 @@ int main() {
 
 
     for(i='a'; i<='z'; i++)
-       p utchar("%c",i);
+        printf("%c",i);
  
  
     for(i='A'; i<='Z'; i++)
-       putchar("%c",i); 
+        printf("%c",i); 
         
         
     return 0;
-}    
+}
