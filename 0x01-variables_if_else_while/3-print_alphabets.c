@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-/* codes here 
+/**
+ * main - Prints the alphabetic
  *
- * here 
+ * Return: Always (Success)
  */
+
  char i;
  
     printf("Capital (upper) case characters:\n");
