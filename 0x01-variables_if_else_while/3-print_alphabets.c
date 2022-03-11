@@ -1,7 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  
+
+ /**
+ * main - Prints the alphabetic in lower and upper case
+ *
+ * Return: Always (Success)
+ */     	
  char i;
 
 
