@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
   
- #include <stdio.h>
-
 /**
  * main - Prints the alphabetic in lower and upper case
  *
@@ -17,16 +16,13 @@ int main() {
 	
 	if (c != 'e' && c != 'q')
 
-	{   
+	   {   
 	   
 		putchar(c);
-	}
+	   }
 
-
-
-	putchar('\n');
+    putchar('\n');
 
 	
-
     return 0;
 }
