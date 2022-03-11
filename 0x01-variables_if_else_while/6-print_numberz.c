@@ -1,16 +1,13 @@
 #include <stdio.h>
 
-int main(void) 
-
 /**
- * main - Prints the alphabetic in lower and upper case
- *
- * Return: Always (Success)
- */
-
+  * main - Prints the numbers since 0 to 9
+  *
+  * Return: Always (Success)
+  */
+int main(void)
 {
-    
-char n;
+	int n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
@@ -18,6 +15,7 @@ char n;
 	}
 
 	putchar('\n');
-    return (0);
-    
+
+	return (0);
 }
+
