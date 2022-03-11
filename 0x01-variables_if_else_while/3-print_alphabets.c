@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
   
   /**
  * main - Prints the alphabetic in lower and upper case
