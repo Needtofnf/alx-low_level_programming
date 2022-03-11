@@ -11,11 +11,15 @@ int main() {
 
 
     for(i='a'; i<='z'; i++)
+        {
+       // putchar("%c",i);
        putchar(i);
- 
+        }
  
     for(i='A'; i<='Z'; i++)
+        {
+        //putchar("%c",i); 
         putchar(i);
-        
+        } 
     return 0;
 }
