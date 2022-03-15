@@ -3,7 +3,7 @@
 /**
  * print_alphabet 
  *
- * Description: Prints the alphabet with 
+ * Description: Prints the alphabet with -putchar 
  *
  * Return: void
  */
