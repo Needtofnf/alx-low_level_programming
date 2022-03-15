@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "main.h"
-int main(void);
-putchar(void);
+#include "main.h,0-putchar.c"
+
 
 /**
  * main - check the code
