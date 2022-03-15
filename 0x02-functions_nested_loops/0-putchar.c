@@ -1,14 +1,19 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * main - check the code
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
+int main(void)
+{
+	char *sh = "_putchar";
 
-int main(void) {
-    // Write C code here
-   char well = '_putchar';
-    putchar (well);
-     return 0;
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
