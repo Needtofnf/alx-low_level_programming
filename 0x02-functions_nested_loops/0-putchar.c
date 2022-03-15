@@ -2,7 +2,7 @@
 
 /**
  * 
- *escription: Prints Holberton with _putchar
+ *Description: Prints Holberton with _putchar
  * 
  *
  * Return: always 0
