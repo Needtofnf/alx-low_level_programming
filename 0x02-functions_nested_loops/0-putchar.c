@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include "main.h"
-_putchar(void);
+int main(void);
+putchar(void);
 
-int main() {
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+int main(void) {
     // Write C code here
    char well = '_putchar';
     putchar (well);
