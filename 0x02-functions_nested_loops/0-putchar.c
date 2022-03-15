@@ -1,15 +1,17 @@
-#include "main.h"
+include "main.h"
 /**
-* print_alphabet - Entry point
-* Return:0
-*/
-void print_alphabet(void)
+ * main - prints the string _putchar 
+ * Return: 0 on success.
+ */
+int main(void)
 {
-char c = 'a';
-while (c <= 'z')
-{
-_putchar(c);
-c++;
-}
-_putchar('\n');
+	char c[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
