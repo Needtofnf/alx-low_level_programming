@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * 
+ * print _putcher using _putchar
  *Description: Prints Holberton with _putchar
- * 
+ *
  *
  * Return: always 0
  */
