@@ -1,19 +1,15 @@
 #include "main.h"
 /**
- * _putchar
- * Return: 0 on success.
- */
-int main(void)
+* print_alphabet - Entry point
+* Return:0
+*/
+void print_alphabet(void)
 {
-	char c[] = "_putchar";
-	int i = 0;
-
-    while (c[i]) != '\0')
-    {
-        _putchar(c[i]);
-        i++
-    }
-    _putchar('\n');
-    
-	return (0);
+char c = 'a';
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
+_putchar('\n');
 }
