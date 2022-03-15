@@ -1,15 +1,24 @@
-#include "main.h"
+include "main.h"
+
 /**
-* print_alphabet - Entry point
-* Return:0
-*/
-void print_alphabet(void)
+ * 
+ *escription: Prints Holberton with _putchar
+ * 
+ *
+ * Return: always 0
+ */
+
+int main(void)
 {
-char c = 'a';
-while (c <= 'z')
-{
-_putchar(c);
-c++;
-}
-_putchar('\n');
+	int i = 0;
+	char c;
+	char s[] = "_putchar\n";
+
+	while (i <= 9)
+	{
+		c = s[i];
+		_putchar(c);
+		i++;
+	}
+	return (0);
 }
