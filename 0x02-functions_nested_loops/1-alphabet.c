@@ -1,10 +1,8 @@
 #include "main.h"
 /**
-* Description: Prints the alphabet with _putchar
+ * main - Description
  *
-* Description main : all files under main
- *
- * Return: void
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
