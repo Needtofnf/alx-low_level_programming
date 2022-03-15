@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include "main.h"
-#include "0-putchar.c"
+
 /**
- * program that prints _putchar
+ * main
  * Return: 0 
  */
 int main(void)
@@ -11,8 +12,8 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		putchar(c[i]);
+		_putchar(c[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
