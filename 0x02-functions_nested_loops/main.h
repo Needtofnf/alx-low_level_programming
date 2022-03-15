@@ -1,1 +1,1 @@
-char c[] = "_putchar";
+../holberton.h
