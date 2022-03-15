@@ -1,27 +1,24 @@
 #include "main.h"
 
 /**
- * print_sign - prints the sign of a number
- * @n: n is an integer
+ * _isalpha - checks for alphabetic character
+ * @c: c is an ascii character
  *
- * Return: 1 (if positive), 0 (if zero), -1 (if negative)
+ * Return: 1 (if letter)
  */
 
-int print_sign(int n)
+int _isalpha(int c)
 {
-	if (n > 0)
+	if (c >= 'a' && c <= 'z')
 	{
-		_putchar('+');
 		return (1);
 	}
-	else if (n < 0)
+	else if (c >= 'A' && c <= 'Z')
 	{
-		_putchar('-');
-		return (-1);
+		return (1);
 	}
 	else
 	{
-		_putchar('0');
 		return (0);
 	}
 }
