@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* Description: Prints the alphabet with -putchar 
+* Description: Prints the alphabet with -putchar
  *
-* Description: Prints the alphabet with -putchar 
+* Description: Prints the alphabet with -putchar
  *
  * Return: void
  */
