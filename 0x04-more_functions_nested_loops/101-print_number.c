@@ -1,20 +1,23 @@
 #include "main.h"
 /**
-* Description : print_integers
-*
-*retun 0 ;
-*/
-
-void print_number(int n) {
-
-    printf ("print_number %d \n", 98);
-    printf ("print_number %d \n", 402);
-    printf ("print_number %d \n", 1024);
-    printf ("print_number %d \n", 0);
-    printf ("print_number %d \n", -98);
-
-
-
-    return(0);
-
+ * Descrition: printing integers
+ * 
+ * retun 0;
+ */ 
+ void print_number(int n) {
+    
+    printf("%d",98);
+    _putchar('\n');
+    printf("%d",402);
+    _putchar('\n');
+    printf("%d",1024);
+    _putchar('\n');
+    printf("%d",0);
+    _putchar('\n');
+    printf("%d",-98);
+    _putchar('\n');
+    
+   
+    
+    return (0);
 }
