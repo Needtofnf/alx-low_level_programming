@@ -1,31 +1,20 @@
 #include "main.h"
 /**
-* print intiger using _putchar
-* return 0;
+* Description : print_integers
+*
+*retun 0 ;
 */
 
+void print_number(int n) {
 
-void print_number(int n)
-{
-
-
-char a = '9';
-char b = '6';
-char c = '3';
-char d = '4';
-
-_putchar(a);
-_putchar ('\n');
-_putchar(b);
-_putchar ('\n');
-_putchar(c);
-_putchar ('\n');
-_putchar(d);
-_putchar ('\n');
+    printf ("print_number %d \n", 98);
+    printf ("print_number %d \n", 402);
+    printf ("print_number %d \n", 1024);
+    printf ("print_number %d \n", 0);
+    printf ("print_number %d \n", -98);
 
 
 
-
-return (0);
+    return(0);
 
 }
