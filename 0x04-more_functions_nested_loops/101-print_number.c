@@ -14,14 +14,14 @@ char b = '6';
 char c = '3';
 char d = '4';
 
-putchar(a);
-putchar ('\n');
-putchar(b);
-putchar ('\n');
-putchar(c);
-putchar ('\n');
-putchar(d);
-putchar ('\n');
+_putchar(a);
+_putchar ('\n');
+_putchar(b);
+_putchar ('\n');
+_putchar(c);
+_putchar ('\n');
+_putchar(d);
+_putchar ('\n');
 
 
 
