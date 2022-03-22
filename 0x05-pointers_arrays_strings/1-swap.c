@@ -3,7 +3,7 @@
 
 int _strlen(char *s)
 {        
-	char i;
+	int i;
     
 	*s = s[i];
 
