@@ -6,7 +6,7 @@
 *Description : 0-reset_to_98.c
 * Return: Always 0.
 */
-void reset_to_98(int *n)
+int main()
 {
 
 
