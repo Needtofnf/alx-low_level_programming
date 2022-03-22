@@ -1,21 +1,15 @@
 #include "main.h"
-#include <stdio.h>
-//#include "main.h"
-/*
-* Description : Write a function that returns the length of a string.
-*
-*  
-*
+/**
+* _strlen - returns the lenght of a string
+*@s: poiter of character
+*Return: the length of a string
 */
-int _strlen (char *s)
+int _strlen(char *s)
 {
-  
-     char myArray[] = {"Hello_World"};
-     
-    // printf ("Answer is : %d",strlen (myArray));
-    *s = strlen(myArray);
-    
-   
-    
-   return 0;
+	int len;
+
+	len = 0;
+	while (*(s + len) != '\0')
+		len++;
+	return (len);
 }
