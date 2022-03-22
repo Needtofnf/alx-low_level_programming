@@ -1,13 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
-int _strlen(char *s)
-{        
-	int i;
-    
-	*s = s[i];
+/**
+ * swap_int - swap the value of two integers.
+ *
+ * @a: first integer.
+ * @b: second integer.
+ *
+ */
 
+void swap_int(int *a, int *b)
+{
+	int c;
 
-return (0);
+	c = 0;
+	c = *a;
+	*a = *b;
+	*b = c;
 }
-
