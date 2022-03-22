@@ -10,7 +10,7 @@ int main()
 {
 
 
-int  *ptr = "98";
+int *ptr = 98;
 printf("The value of ptr is : %d\n", ptr);
 
 return (0);
