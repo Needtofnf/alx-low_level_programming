@@ -1,18 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* n: pointer.
-*Description : 0-reset_to_98.c
-* Return: Always 0.
-*/
-int main()
+ * reset_to_98 - updates the value *n points to.
+ * @n: the number to modify.
+ */
+
+void reset_to_98(int *n)
 {
-
-
-int *ptr = "98";
-printf("The value of ptr is : %d\n", ptr);
-
-return (0);
+	*n = 98;
 }
 
