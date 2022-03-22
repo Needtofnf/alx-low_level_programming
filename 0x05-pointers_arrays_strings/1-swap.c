@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 int _strlen(char *s)
-{
+{        
+	char i;
     
 	*s = s[i];
 
