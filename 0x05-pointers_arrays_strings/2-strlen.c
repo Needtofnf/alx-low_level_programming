@@ -1,17 +1,12 @@
-#include "main.h"
 #include <stdio.h>
-/*
-* rreruierioer
-*
-*gvgfdggdfg
-*/
+#include "main.h"
 
-int _strlen(char *s)
+int main() 
 {
-    int i ;
-	*s = s[i];
-
-
-return (0);
+  
+     char myArray[] = {"seeiiio"};
+     
+     printf ("Answer is : %d",strlen (myArray));
+     
+    return 0;
 }
-
