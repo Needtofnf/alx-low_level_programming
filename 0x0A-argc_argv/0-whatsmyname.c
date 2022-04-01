@@ -1,21 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-    // Write C code here
-    char program_name[100] ;
-    int a ;
-    
+/**
+ * main - Entry point
+ *
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
+ * Return: Always 0 (Success)
+ */
 
-    
-    for (a =0; a<= 4; a++)
-        {
-            
-       printf("Program name is\n");
-       scanf ("%s", &program_name);
-       printf("Yor new program name is : %s \n", program_name);
-            
-        }
-        
-        
-    return 0;
+int main(int argc, char **argv)
+{
+	if (argc > 0)
+		printf("%s\n", argv[0]);
+	return (0);
 }
