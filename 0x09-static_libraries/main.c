@@ -2,6 +2,8 @@
 /**
 * main -Static Librairies.
 *
+* DESCRIPTION - _puts.
+*
 * Return: Always 0.
 */
 
