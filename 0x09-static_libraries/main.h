@@ -1,3 +1,4 @@
+int main(void);
 int _isupper(int c);
 char *_memset(char *s, char b, unsigned int n); 
 char *_strcat(char *dest, char *src); 
