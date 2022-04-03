@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* main - _puts
+* main - print sentence using _puts.
 *
-* Description: _puts
+* Description: print sentence using_puts.
 *
 * Return: 0
 */
