@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* main -Static Librairies.
+* main - _puts.
 *
-* DESCRIPTION - _puts.
+* Description: _puts.
 *
-* Return: Always 0.
+* Return: 0 (Success)
 */
 
 int main(void)
