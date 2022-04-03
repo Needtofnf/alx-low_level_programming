@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* main - _puts.
+* main - _puts
 *
-* Description: _puts.
+* Description: _puts
 *
-* Return: 0 (Success)
+* Return: 0
 */
 
 int main(void)
