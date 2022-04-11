@@ -11,7 +11,7 @@
 int main(void)
 {
 
-printf("gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -o c\n");
+printf("gcc -Wall -pedantic -Werror -Wextra -std=gnu89\n");
 
 
 
