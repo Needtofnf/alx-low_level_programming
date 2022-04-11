@@ -2,13 +2,12 @@
 #define foo_H
 
 #include <stdio.h>
-/*
- *
- * DESCRIPTIO: function main  prints 2 -main.c
- *
- * return 0;
- */
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 
