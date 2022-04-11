@@ -9,7 +9,6 @@
 
 int main(void)
 {
-char name_storage[] = "2-main.c";
 
 printf("%s\n", __FILE__);
 
