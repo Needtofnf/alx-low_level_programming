@@ -10,7 +10,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 {
 
 
-char struct dog;
+dog = { .flag = true, .value = 123, .stuff = 0.456 };
+    
 
 
 return (0);
