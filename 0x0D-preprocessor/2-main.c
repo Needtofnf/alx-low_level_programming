@@ -11,7 +11,7 @@ int main(void)
 {
 char name_storage[] = "2-main.c";
 
-printf("%s\n", name_storage);
+printf("%s\n", __FILE__);
 
 return (0);
 }
