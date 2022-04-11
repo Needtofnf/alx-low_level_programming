@@ -11,7 +11,7 @@
 int main(void)
 {
 
-printf("2-main.c\n");
+printf("gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c -o c\n");
 
 
 
