@@ -2,19 +2,19 @@
 #include "dog.h"
 
 /**
-* main - check the code
+* init_dog - check the code
+*
+* DESCRIPTION: d - d, name - zodwa, age - 2.4, wner - community
 *
 * Return: Always 0.
 */
-void init_dog(struct dog *d, char *name, float age, char *owner);
+
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 
 
-dog = { .flag = true, .value = 123, .stuff = 0.456 };
-    
+struct dog = { .dog * d, .name = zodwa, .age = 2.4, .owner = community };
 
 
 return (0);
 }
-
-
