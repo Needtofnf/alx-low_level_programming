@@ -10,8 +10,9 @@
 */
 int main(void)
 {
+int name_storage = "2-main.c";
 
-printf("2-main.c\n");
+printf("%s\n", name_storage);
 
 return (0);
 }
