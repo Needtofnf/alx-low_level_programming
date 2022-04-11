@@ -1,10 +1,9 @@
 #ifndef foo_H
 #define foo_H
 
-#define BUFFER_SIZE 1024
 
 #include <stdio.h>
-
+#define BUFFER_SIZE 1024
 /**
  * main - check the code
  *
@@ -19,6 +18,5 @@ printf("%d\n", s);
 return (0);
 
 }
-
 
 #endif
