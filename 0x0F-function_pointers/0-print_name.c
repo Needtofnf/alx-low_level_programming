@@ -1,26 +1,25 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- * print_name_as_is - prints a name as is
- * @name: name of the person
- *
- * Return: Nothing.
- */
+* print_name_as_is - prints a name as is
+* @name: name of the person
+*
+* Return: Nothing.
+*/
 
 void print_name(char *name, void (*f)(char *))
 {
 
 
-    printf("The name is: %s\n", name);
+printf("The name is: %s\n", name);
 
 
 }
 
-int main ()
+int main(void)
 {
-    print_name("bongaa");
+print_name("bongaa", "mpi");
 
 
-    retun (0);
+return (0);
 }
-
