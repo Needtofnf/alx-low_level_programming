@@ -21,11 +21,13 @@ int sum_them_all(const unsigned int n, ...)
 
 int main (void)
 {
+    int n ;
   /* This call prints 16. */
   printf ("%d\n", sum_them_all (3, 5, 5, 6));
 
-  /* This call prints 55. */
-  printf ("%d\n", sum_them_all (10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+ if(n == 0)
+ {
+     return 0;
+ }
 
-  return 0;
 }
