@@ -15,7 +15,7 @@ int sum_them_all(const unsigned int n, ...)
     sum += va_arg (ap, int);
 
   va_end (ap);
-  return sum;
+  return (sum);
 }
 
 
@@ -27,6 +27,6 @@ int main (void)
 
   printf ("%d\n", sum_them_all (10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 
-  return 0;
+  return (0);
 }
 
