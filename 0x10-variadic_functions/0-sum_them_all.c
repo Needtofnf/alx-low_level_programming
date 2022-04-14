@@ -23,11 +23,12 @@ int main (void)
 {
     int n ;
   /* This call prints 16. */
-  printf ("%d\n", sum_them_all (3, 5, 5, 6));
-
+  printf ("%d\n", sum_them_all (2, 98, 1024));
+  printf ("%d\n", sum_them_all (4, 98, 1024, 402, -1024));
  if(n == 0)
  {
      return 0;
  }
 
 }
+
