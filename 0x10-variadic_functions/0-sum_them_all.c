@@ -15,7 +15,7 @@ int sum_them_all(const unsigned int n, ...)
     sum += va_arg (ap, const unsigned int);    /* Get the next argument value. */
 
   va_end (ap);                  /* Clean up. */
-  return sum;
+  return (sum);
 }
 
 
@@ -25,9 +25,9 @@ int main (void)
   /* This call prints 16. */
   printf ("%d\n", sum_them_all (2, 98, 1024));
   printf ("%d\n", sum_them_all (4, 98, 1024, 402, -1024));
- if(n == 0)
+ if (n == 0)
  {
-     return 0;
+     return (0);
  }
 
 }
