@@ -5,21 +5,28 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
+  va_list ap;
+  int i, sum, count;
 
-    printf("The sum: %d", n);
+  va_start (ap, count);
 
-    if(n == 0)
-    {
-        return (0);
-    }
+  sum = 0;
+  for (i = 0; i < count; i++)
+    sum += va_arg (ap, int);
 
+  va_end (ap);
+  return sum;
 }
 
-int main(void)
+
+int main (void)
 {
-   int n;
-     sum_them_all(n);
+
+  printf ("%d\n", sum_them_all (3, 5, 5, 6));
 
 
-    return (0);
+  printf ("%d\n", sum_them_all (10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+
+  return 0;
 }
+
